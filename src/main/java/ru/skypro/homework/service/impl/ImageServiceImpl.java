@@ -28,14 +28,4 @@ public class ImageServiceImpl implements ImageService {
                 .contentType(MediaType.IMAGE_PNG)
                 .body(new InputStreamResource(new ByteArrayInputStream(image.getBytes())));
     }
-
-//    @Override
-//    public String updateImage(int id, MultipartFile file, Authentication authentication) {
-//        return null;
-//    }
-//
-//    @Override
-//    public String updateImage(MultipartFile file, Authentication authentication) {
-//        return null;
-//    }
 }

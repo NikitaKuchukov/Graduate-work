@@ -8,7 +8,4 @@ public interface ImageService {
 
     ResponseEntity<?> getImage(int id);
 
-//    String updateImage(int id, MultipartFile file, Authentication authentication);
-//
-//    String updateImage(MultipartFile file, Authentication authentication);
 }

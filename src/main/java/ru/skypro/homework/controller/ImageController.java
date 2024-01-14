@@ -24,25 +24,4 @@ public class ImageController {
 
         return imageService.getImage(id);
     }
-
-//    /**
-//     * Обновление картинки объявления
-//     */
-//    @PatchMapping("/ads/{id}/image")
-//    public ResponseEntity<String> updateImage(@PathVariable int id,
-//                                              @RequestPart("image") MultipartFile image,
-//                                              Authentication authentication) {
-//        return ResponseEntity.ok(imageService.updateImage(id, image, authentication));
-//    }
-//
-//    /**
-//     * Обновление аватарки пользователя
-//     */
-//    @PatchMapping(value = "/users/me/image", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
-//    public ResponseEntity<?> updateUserImage(@RequestPart("image") MultipartFile image,
-//                                             Authentication authentication) {
-//
-//        return ResponseEntity.ok(imageService.updateImage(image, authentication));
-//    }
-
 }
